@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+a{
+	text-decoration: none;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #e4e7ed;
+}
+.main-box{
+	width: 50%;
+	border: 1px solid black;
+	display: flex;
+}
+.left-box{
+	width: 55%;
+	background-color: #2874f0;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 10px;
+}
+.left-box h2{
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+.left-box h3{
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+.left-box p{
+	color: #dbdbdb;
+	line-height: 28px;
+}
+.right-box{
+	width: 45%;
+	background-color: #ffffff;
+	border: 1px solid black;
+}
+form{
+	padding: 20px 10px;
+	display: flex;
+	flex-direction: column;
+}
+form input,select{
+	font-size: 25px;
+	margin: 10px 0;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid green;
+}
+[type=submit]{
+	background-color: orange;
+	color: white;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+form a{
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+form a:hover{
+	font-size: 23px;
+	color: red;
+}
+form input::placeholder{
+	color: #dbdbdb;
+}

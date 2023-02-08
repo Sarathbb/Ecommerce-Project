@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+	margin-top: 20px;
+	background-color: #2874f0;
+	padding: 10px 0;
+}
+
+.main-box{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: auto;
+}
+.main-box .left-box{
+	width: 56%;
+	height:auto;
+}
+
+table{
+	width: 100%;
+}
+table tr th{
+	padding: 10px 20px;
+	background-color: #2874f0;
+	align-items: center;
+}
+table tr td{
+	margin: 10px 30px;
+}
+.main-box .right-box{
+	width: 38%;
+	height: 330px;
+	
+}
+.main-box .right-box h2{
+	text-align: center;
+	font-family: sans-serif;
+	background-color: #2874f0;
+	padding: 10px 0;
+}
+.right-box .two-input-box{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 0;
+}
+.right-box .two-input-box input,select{
+	width: 250px;
+	height: 40px;
+	font-size: 19px;
+}
+.right-box .button-box{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+.right-box .button-box input {
+	font-size: 20px;
+	padding: 5px 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
